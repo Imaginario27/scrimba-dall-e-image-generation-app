@@ -14,7 +14,7 @@
             <h1
                 class="text-4xl font-extrabold text-gray-100 text-center drop-shadow-lg"
             >
-                Generate with DALL-E
+                DALL-E Image Generation
             </h1>
         </div>
 
@@ -106,7 +106,7 @@
                             class="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-2"
                         ></div>
                         <span>{{
-                            loading ? "Generating..." : "Generate"
+                            loading ? "Generating..." : "Generate image"
                         }}</span>
                     </button>
                 </form>
